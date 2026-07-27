@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros - Biblioteca Virtual</title>
+
+    <link rel="stylesheet" href="Livros.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <i class="fas fa-book-open"></i>
+        <h2>Biblioteca Virtual</h2>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+       <a href="Categorias.html"></a>
+        <a href="Login.html">Sair</a>
+        <a href="Videos.html">Videos</a>
+    </nav>
+
+</header>
+
+<section class="pesquisa">
+
+<h1> Área dos Livros</h1>
+
+
+   <div class="pesquisa">
+    <input
+        type="text"
+        id="pesquisaLivro"
+        placeholder="Pesquisar Livros..."
+        onkeyup="pesquisarLivros()">
+
+    <button onclick="pesquisarLivros()">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
+
+</section>
+
+<section class="livros">
+
+    <div class="card">
+        <img src="img/Livro1.webp" alt="">
+        <h3>Lógica de Programação</h3>
+        <p>André Luiz Villar</p>
+        <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro2.jpg" alt="">
+        <h3>Introdução á ciencia da computação</h3>
+        <p>Ricardo Daniel Fedeli</p>
+         <a href="pdf/Introduçãoácienciadacomputação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro3.png" alt="">
+        <h3>Fundamentos da Programação de Computadores</h3>
+        <p>Ana Fernanda Gomes </p>
+         <a href="pdf/FundamentosdaProgramaçãodeComputadores.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro4.jpeg" alt="">
+        <h3>Estrutura de dados e algoritimos com javascript</h3>
+        <p>Loiane Groner</p>
+        <a href="pdf/Estruturadedadosealgoritimoscomjavascript.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro5.webp" alt="">
+        <h3>Algoritmos</h3>
+        <p>Thomas H. Cormer</p>
+         <a href="pdf/Algoritmos.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro6.jpeg" alt="">
+        <h3>Dom Casmurro</h3>
+        <p>Machado de Assis</p>
+         <a href="pdf/DomCasmurro.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro7.jpeg" alt="">
+        <h3>Quincas Bordas</h3>
+        <p>Machado Assis</p>
+         <a href="pdf/QuincasBordas.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro8.jpeg" alt="">
+        <h3>Iracema</h3>
+        <p>José de Alencar</p>
+         <a href="pdf/Iracema.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro9.jpeg" alt="">
+        <h3>O cortiço</h3>
+        <p>Aluísio Azevedo</p>
+         <a href="pdf/Ocortiço.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro10.jpeg" alt="">
+        <h3>Senhora</h3>
+        <p>José de Alencar</p>
+         <a href="pdf/Senhora.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO11.jpeg" alt="">
+        <h3>A morenhinha</h3>
+        <p>Joaquim Mannel de Macedo</p>
+         <a href="pdf/Amorenhinha.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO12.jpeg" alt="">
+        <h3>Histpria do Brasil</h3>
+        <p>R. Haddock Lobo</p>
+         <a href="pdf/HistoriadoBrasil.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO13.jpeg" alt="">
+        <h3>Historia Moderna</h3>
+        <p>Paulo Miceli</p>
+         <a href="pdf/HistoriaModerna.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/Livro14.jpeg" alt="">
+        <h3>Historia</h3>
+        <p>Adriana Marchado Dias</p>
+        <a href="pdf/Historia.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO15.jpeg" alt="">
+        <h3>Historia Negra</h3>
+        <p>Desconhecido</p>
+         <a href="pdf/HistoriaNegra.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO16.jpeg" alt="">
+        <h3>Historia da Educação</h3>
+        <p>Karen Fernana Bortoloti</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO17.jpeg" alt="">
+        <h3>Biologia Celular e Molecular</h3>
+        <p>edward M. de Robertis</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO18.jpeg" alt="">
+        <h3> Biologia</h3>
+        <p>Luciane Lazzarini</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO19.jpeg" alt="">
+        <h3>Fundamentos da Biologia</h3>
+        <p>Ivonete Aparecida dos Santos</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO20.jpeg" alt="">
+        <h3>Fundamentos da Biologa Celular/h3>
+        <p>Albertis/p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO21.jpeg" alt="">
+        <h3>Biologia Essencial para Leigos</h3>
+        <p>Ian Sommervill</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO22.jpeg" alt="">
+        <h3>Biologia Marinha</h3>
+        <p>Piter Castro</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO23.webp" alt="">
+        <h3>Matematica</h3>
+        <p>Luiz Roberto Dante</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO24.jpeg" alt="">
+        <h3>Matematica Divertida e Curiosa</h3>
+        <p>Malba Tahan</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO25.webp" alt="">
+        <h3>Problemas Olimpicos dr Matematica</h3>
+        <p>Desconhecido</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO26.jpeg" alt="">
+        <h3>Geografia</h3>
+        <p>Eustáquio de Sene</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO27.jpeg" alt="">
+        <h3>Geografia: Conceitos e Temas</h3>
+        <p>Iná Elias de Castro</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO28.jpeg" alt="">
+        <h3>O poder da Geografia</h3>
+        <p>Tim Mashall</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+<div class="card">
+        <img src="img/LIVRO29.jpeg" alt="">
+        <h3>Direito Administrativo</h3>
+        <p>Maria Sylvia Zanella</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO30.jpeg" alt="">
+        <h3>Administração Financeira</h3>
+        <p>Eugene F. Bringham</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO31.jpeg" alt="">
+        <h3>Fundamentos da administração</h3>
+        <p>Robert N. Lussier</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO32.jpeg" alt="">
+        <h3>Administração Geral e Politica</h3>
+        <p>Idalberto Chiavenato</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO33.jpeg" alt="">
+        <h3>Intodução a Teoria Geral da Administração</h3>
+        <p>Idalberto Chiavenato</p>
+        <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO34.jpeg" alt="">
+        <h3>Pedagogia da Autonomia</h3>
+        <p>Paulo Freire</p>
+        <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO35.jpeg" alt="">
+        <h3>Educação Inclusiva</h3>
+        <p>Cristiane T. SAMPAIO</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+    <div class="card">
+        <img src="img/LIVRO36.jpeg" alt="">
+        <h3>Dificudades de aprendizagem na alfabetização</h3>
+        <p>Maria de Fatima Cardoso Gomes</p>
+         <a href="pdf/Lógicadeprogramação.pdf" target="_blank"></a>
+        <button>Ler PDF</button>
+    </div>
+
+
+</section>
+
+<footer>
+
+    <p>© 2026 Biblioteca Virtual - Todos os direitos reservados.</p>
+
+</footer>
+<script src="Livros.js"></script>
+</body>
+</html>

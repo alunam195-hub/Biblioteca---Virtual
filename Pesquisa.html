@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa - Biblioteca Virtual</title>
+
+    <link rel="stylesheet" href="Pesquisa.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <i class="fas fa-book-open"></i>
+        <h2>Biblioteca Virtual</h2>
+    </div>
+
+    <nav>
+        <a href="Home.html">Início</a>
+        <a href="Livros.html">Livros</a>
+        <a href="Categorias.html">Categorias</a>
+    </nav>
+
+</header>
+
+<main class="pesquisa-page">
+
+    <h1>Pesquisar</h1>
+    <p>Encontre livros, vídeos e materiais educativos.</p>
+
+    <div class="barra-pesquisa">
+
+        <input
+            type="text"
+            placeholder="Digite o nome do livro, autor ou categoria...">
+
+        <button>
+            <i class="fas fa-search"></i>
+            Pesquisar
+        </button>
+
+    </div>
+
+    <section class="resultado-pesquisa">
+
+        <h2>Resultados</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="img/Livro1.webp" alt="Livro">
+                <h3>Lógica de Programação</h3>
+                <p>Autor: Fábio Gomes</p>
+                <button class="btn">Ver Detalhes</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Livro2.jpg" alt="Livro">
+                <h3>HTML e CSS</h3>
+                <p>Autor: Jon Duckett</p>
+                <button class="btn">Ver Detalhes</button>
+            </div>
+
+            <div class="card">
+                <img src="img/Livro3.png" alt="Livro">
+                <h3>Python para Iniciantes</h3>
+                <p>Autor: Eric Matthes</p>
+                <button class="btn">Ver Detalhes</button>
+            </div>
+
+            <div class="card">
+                <img src="img/video1.jpg" alt="Vídeo">
+                <h3>Curso de JavaScript</h3>
+                <p>Vídeo Educativo</p>
+                <button class="btn">Assistir</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <p>&copy; 2026 Biblioteca Virtual - Todos os direitos reservados.</p>
+
+</footer>
+<script src="Pesquisa.js"></script>
+</body>
+</html>
